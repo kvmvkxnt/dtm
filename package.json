@@ -1,0 +1,17 @@
+{
+  "name": "dtm",
+  "version": "0.0.1",
+  "description": "Simple dtm's upgraded copy",
+  "main": "index.js",
+  "repository": "https://github.com/kvmvkxnt/dtm.git",
+  "scripts": {
+    "start": "concurrently \"yarn --cwd client start\" \"yarn --cwd server start\"",
+    "build": "yarn --cwd client build && yarn --cwd server build"
+  },
+  "author": "kvmvkxnt <kamron1007dada@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
