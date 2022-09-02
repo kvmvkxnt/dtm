@@ -3,7 +3,6 @@ Simple dtm's upgraded copy
 
 ## Project structure
 dtm
-
 ├── LICENSE
 
 ├── README.md
